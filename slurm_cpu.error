@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "src/optimizer_parameters.py", line 63, in <module>
+    main('../data/features002V0.pickle')
+  File "src/optimizer_parameters.py", line 58, in main
+    optimizer = OptimizerRandomForest(path)
+  File "/home/dcabrera/Random_Forest_WPD/src/optimizer_parameters.py", line 12, in __init__
+    dataset, wavelet_list, max_level = read_datasets(path, random_state)
+  File "/home/dcabrera/Random_Forest_WPD/src/read_dataset.py", line 80, in read_datasets
+    with open(path_data, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../data/features002V0.pickle'
